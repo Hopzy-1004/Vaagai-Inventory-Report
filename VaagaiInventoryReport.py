@@ -27,7 +27,7 @@ COOKIES = {"PHPSESSID": PHPSESSID}
 ZOHO_SMTP_SERVER = "smtp.zoho.in"
 ZOHO_SMTP_PORT = 587
 ZOHO_EMAIL = "avinash.sk@hopzy.in"
-ZOHO_PASSWORD = "JqkGLkfkTf0n"      # Zoho App Password
+ZOHO_PASSWORD = "Ai4x0KC3eVjv"      # Zoho App Password
 MANAGER_EMAIL = "avinash.sk@hopzy.in"
 
 # CC recipients
@@ -480,4 +480,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
