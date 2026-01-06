@@ -26,12 +26,12 @@ COOKIES = {"PHPSESSID": PHPSESSID}
 # ZOHO EMAIL CONFIGURATION
 ZOHO_SMTP_SERVER = "smtp.zoho.in"
 ZOHO_SMTP_PORT = 587
-ZOHO_EMAIL = "madhu.l@hopzy.in"
+ZOHO_EMAIL = "avinash.sk@hopzy.in"
 ZOHO_PASSWORD = "JqkGLkfkTf0n"      # Zoho App Password
 MANAGER_EMAIL = "avinash.sk@hopzy.in"
 
 # CC recipients
-CC_EMAILS = ["raj.shivraj@hopzy.in", "siddarth.shetty@hopzy.in", "tejus.a@hopzy.in"]
+CC_EMAILS = ["avinash.sk@hopzy.in"]
 
 
 def get_operators():
@@ -480,3 +480,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
