@@ -303,7 +303,7 @@ def create_html_summary(total_trips, total_routes, total_operators,
                   <table width="100%" cellpadding="0" cellspacing="0">
                     <tr>
                       <td align="left" valign="middle">
-                        <img src="cid:vaagaibus_logo" alt="Vaagaibus" style="height:32px;">
+                        <img src="cid:logo" alt="Vaagaibus" style="height:32px;">
                       </td>
                       <td align="right" valign="middle" style="font-size:18px; font-weight:bold; color:#0066cc;">
                         7-Day Operator Inventory Report
@@ -397,9 +397,9 @@ def send_zoho_email(subject, html_body, excel_filename, manager_email, cc_emails
 
     # Inline logo image (image.jpg in same directory)
     try:
-        with open("image.jpg", "rb") as img_file:
+        with open("logo.jpg", "rb") as img_file:
             logo = MIMEImage(img_file.read())
-            logo.add_header('Content-ID', '<vaagaibus_logo>')
+            logo.add_header('Content-ID', '<logo>')
             logo.add_header('Content-Disposition', 'inline', filename="logo.jpg")
             alternative_part.attach(logo)
     except Exception as e:
@@ -480,5 +480,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
