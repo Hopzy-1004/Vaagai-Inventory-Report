@@ -29,4 +29,4 @@ jobs:
           VAAGAI_SESSION: ${{ secrets.VAAGAI_SESSION }}
           ZOHO_PASSWORD: ${{ secrets.ZOHO_PASSWORD }}
         run: |
-          python VaagiInventoryReport.py
+          python VaagaiInventoryReport.py
